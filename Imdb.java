@@ -356,7 +356,7 @@ public class Imdb {
             numberOfline++;
         }
 
-        System.out.println("[+] Coming Soon data downloaded !");
+        System.out.println("\n[+] Coming Soon data downloaded !");
 
     }
 
@@ -728,11 +728,11 @@ public class Imdb {
 
                     if (pageContents.get(numberOfNews).indexOf(name) != -1){
                         actorsInThisNews.add(name);
-                        System.out.println(actorsInThisNews);
-//                        System.out.println("\n\n[Name] " + name);
-//                        System.out.println("[Title] " + pageTitles.get(numberOfNews));
-//                        System.out.println("\n[Content] : \n");
-//                        System.out.println(pageContents.get(numberOfNews));
+                        System.out.println("\n\n[Name] " + name);
+                        System.out.println("[Title] " + pageTitles.get(numberOfNews));
+                        System.out.println("\n[Content] : \n");
+                        System.out.println(pageContents.get(numberOfNews));
+                        System.out.println("\n-----------------------------------------------------------------");
                     }
 
                 }
